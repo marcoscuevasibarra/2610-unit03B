@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                                       
+
+    <title>Document</title>
+    <meta name="description" content=" The Rock Company - Architecture - Blueprints - Contruction">
+    <meta name="author" content="Marcos Cuevas">
+
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--   google font- seleccion de font con 300 ,500, 700   -->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    
+  <!--   google font- termina   -->  
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    
+
+   <!--   favicon generator icons stuff -OJO NO OLVIDAR - se removio slash de link de archivo pero se usa en real world-->
+   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+ <!--   favicon - termina   -->  
+</head>
+<body>
+
+<div id="headerWrapper">
+
+<header>
+   <!--   LOGO FOLDER- NOMBRE pixel density - se agraga srcset y las tres logos con 1x,2x,3x del folder   -->  
+
+
+
+<a href="#"><img src="images/LOGO40.png" alt="logo" width="40" height="40" srcset="images/LOGO40.png 1x, images/LOGO80.png 2x, images/LOGO120.png 3x"></a>
+
+
+
+    <h1>The Rock Architecture</h1>
+    
+    
+
+</header>
+</div>
+
+<div id="navWrapper">
+
+    <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Interiors-Design</a></li>
+                <li class="active"><a href="#">Video</a></li>
+                <li><a href="#">Blue Prints</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+
+
+    </nav>
+
+</div>
+
+<div id="mainWrapper">
+    <main>
+
+
+
+ <!--   HERO - DEFAULT FOTO ES BLANCO Y NEGRO     -->  
+
+<picture class="hero">
+
+<source media="(min-width: 350px) and (max-width: 699px)" srcset="images/new-york-citySMALL.webp">
+<source media="(min-width: 700px) and (max-width: 1099px)" srcset="images/new-york-cityMEDIUM.webp">
+<source media="(min-width: 1100px) and (max-width: 1500px)" srcset="images/new-york-cityLARGE.webp">
+
+<img src="images/new-york-cityDEFAULT.webp" alt="york" width="700" height="394">
+
+
+</picture>
+ <!--  TERMINA HERO     -->  
+
+<h1>Video</h1>
+ <!--   cards  - tarjetas  - photo y fecha   -->
+        
+        
+ <!-- tarjetas - card - termina   -->
+
+<!--   video from mdn web docs - adding captions and subtitles to HTLM video  -->
+
+ <video controls >
+    <source src="media/Comichb.mp4" type="video/mp4" />
+    <source src="media/Comichb.webm" type="video/webm" />
+    <track
+      label="English"
+      kind="subtitles"
+      srclang="en"
+      src="media/cim-en.vtt"
+       />
+    <track
+      label="Deutsch"
+      kind="subtitles"
+      srclang="de"
+      src="media/cim-de.vtt" 
+      default/>
+    <track
+      label="Español"
+      kind="subtitles"
+      srclang="es"
+      src="media/cim-es.vtt" />
+  </video>
+
+
+<!--   termina video   -->
+<!--   inicia transcripcion de video   -->
+
+<details>
+<summary>Video Transcript</summary>
+<p>Very Harley Queen Superman Star-Girl Apocalypse She-hulk, Beast, Iron Man </p>
+
+    <p>Spider-Man, Poison Ivy ,Robin, Wolverine, Mickey Mouse, to Jean Gray, Dr Doom, Spider-Man </p>
+    
+    <p>Wolverine, Superman, Wonder-Woman, Skrull red, profesor X, Hulk ,The Darth Vader, Joker, Autobot Optimus Prime.
+
+
+</p>
+
+
+
+
+</details>
+
+
+<!--   termina transcripcion de video   -->
+
+    </main>
+
+</div>
+
+<div id="footerWrapper">
+<footer>
+<p> &copy; <span id="year">x</span> &bull;   Marcos Cuevas</p>
+
+
+</footer>
+
+
+
+</div>
+<script src="js/scripts.js"></script>
+   
+    
+</body>
+</html>
